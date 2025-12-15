@@ -1,0 +1,8 @@
+Consistency - same thing means the same thing in all cases. - doing the same type of thing by a predefined way - no conflicting ideas
+
+Clarity - definitions and meanings are clear enough to be consistent for all readers
+
+
+the abstraction should decrease complexity and prioritize the most simplification rendered.
+So abstracting "loading yaml files" beyond the existing yaml library makes "deserialization and validation" more complicated in the callers and is the wrong abstraction, unless the approach makes it simpler as well.
+
